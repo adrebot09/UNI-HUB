@@ -64,31 +64,6 @@ Unlike many beginner projects, UNI-HUB V1 was designed with manufacturability in
 
 ---
 
-# Project Structure
-
-```
-UNI-HUB/
-│
-├── hardware/
-│   ├── schematic/
-│   ├── pcb/
-│   ├── gerber/
-│   ├── bom/
-│   └── cpl/
-│
-├── docs/
-│   ├── journal/
-│   ├── renders/
-│   ├── images/
-│   └── datasheets/
-│
-├── LICENSE
-├── README.md
-└── CHANGELOG.md
-```
-
----
-
 # Development Process
 
 The project followed a structured engineering workflow:
@@ -131,7 +106,6 @@ The repository includes all production files required for fabrication.
 # Software Used
 
 - EasyEDA Pro
-- Fusion 360 *(planned enclosure design)*
 - Git & GitHub
 
 ---
@@ -142,9 +116,6 @@ The repository includes all production files required for fabrication.
 - PCB Design
 - Gerber Files
 - Bill of Materials (BOM)
-- Pick & Place (CPL)
-- Development Journal
-- Documentation
 
 ---
 
@@ -179,10 +150,6 @@ Choose your preferred license before public release.
 Recommended:
 
 MIT License
-
-or
-
-CERN Open Hardware License v2
 
 ---
 

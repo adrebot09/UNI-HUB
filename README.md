@@ -3,8 +3,6 @@
 # UNI-HUB V1
 
 <p align="center">
-  <img src="docs/images/banner.png" alt="UNI-HUB V1 Banner" width="800">
-</p>
 
 <p align="center">
 A compact USB 2.0 hub featuring dual upstream compatibility, four downstream ports, per-port LED indicators, and an open-source hardware design.

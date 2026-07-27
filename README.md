@@ -16,167 +16,32 @@ A compact USB 2.0 hub featuring dual upstream compatibility, four downstream por
 </p>
 
 ---
+🚀 UNI-HUB V1
+A custom-designed, open-source USB 2.0 Hub built from the ground up.
 
-# Overview
+UNI-HUB V1 was created as a hands-on hardware engineering project to dive deep into proper PCB design practices and prepare a board for professional SMT assembly. Unlike basic beginner builds, this hub was designed from day one with real-world manufacturability in mind—using LCSC components and JLCPCB assembly-compatible footprints.
 
-UNI-HUB V1 is a custom-designed USB 2.0 hub developed from the ground up using EasyEDA. The project was created as a hardware engineering learning experience while following proper PCB design practices and preparing the board for professional SMT assembly.
+✨ Features
+4 Downstream Ports: * 2 × USB Type-A
+2 × USB Type-C
 
-Unlike many beginner projects, UNI-HUB V1 was designed with manufacturability in mind using LCSC components and JLCPCB assembly-compatible footprints.
+Dual Upstream Options:
+Connect via USB Type-C or USB Type-A (Note: Only connect one upstream port at a time!)
 
----
+Power Indicators: Individual status LEDs for every downstream port.
 
-# Features
+USB-C Compliant: CC pull-down resistors implemented according to official USB Type-C specs.
 
-- 4 USB 2.0 Downstream Ports
-  - 2 × USB Type-A
-  - 2 × USB Type-C
+Manufacture-Ready: Designed specifically for seamless JLCPCB SMT assembly.
 
-- Dual Upstream Connectivity
-  - USB Type-C
-  - USB Type-A
-  - *(Only one upstream connector should be connected at a time.)*
+## 🛠️ Hardware Specifications
 
-- Individual LED Power Indicator for every downstream port
-
-- USB-C CC resistor implementation following USB Type-C specifications
-
-- Professional PCB Layout
-
-- Designed for JLCPCB SMT Assembly
-
-- Open Source Hardware
-
----
-
-# Hardware Specifications
-
-| Specification | Value |
-|--------------|-------|
-| USB Standard | USB 2.0 High-Speed |
-| Hub Controller | SL2.1A |
-| Upstream Ports | 1 × USB-C + 1 × USB-A |
-| Downstream Ports | 2 × USB-A + 2 × USB-C |
-| Power | USB Bus Powered |
-| PCB Layers | 2 Layer |
-| Indicator LEDs | 4 |
-| CAD Software | EasyEDA Pro |
-
----
-
-# Development Process
-
-The project followed a structured engineering workflow:
-
-- Research
-- Component Selection
-- Schematic Design
-- Component Verification
-- PCB Routing
-- Design Rule Verification
-- Manufacturing Preparation
-
-Every major milestone was documented throughout development.
-
----
-
-# PCB Highlights
-
-- Differential pair routing
-- USB-C CC implementation
-- Decoupling capacitor placement
-- Individual power indicator LEDs
-- Compact board layout
-- Manufacturing-ready footprints
-
----
-
-# Manufacturing
-
-Designed for:
-
-- EasyEDA Pro
-- LCSC Components
-- JLCPCB SMT Assembly
-
-The repository includes all production files required for fabrication.
-
----
-
-# Software Used
-
-- EasyEDA Pro
-- Git & GitHub
-
----
-
-# Repository Contents
-
-- Schematics
-- PCB Design
-- Gerber Files
-- Bill of Materials (BOM)
-
----
-
-# Future Improvements (V2)
-
-- USB 3.x Support
-- Power Protection Improvements
-- ESD Protection
-- Automatic Upstream Detection
-- Custom Enclosure
-- Activity LEDs
-- Improved Silkscreen Artwork
-
----
-
-# Designed & Developed By
-
-**@AdreBot**
-
-Designed and Developed in India
-
-2026
-
----
-
-# License
-
-This project is released as open-source hardware.
-
-Choose your preferred license before public release.
-
-Recommended:
-
-MIT License
-
----
-
-# Acknowledgements
-
-Special thanks to:
-
-- EasyEDA
-- LCSC
-- JLCPCB
-- Hack Club Macondo
-
-for providing the tools and ecosystem that made this project possible.
-
----
-
-# Project Status
-
-Current Version
-
-**UNI-HUB V1**
-
-Status:
-
-**PCB Design Complete**
-
-Ready for prototype manufacturing.
-
----
-
-## ⭐ If you found this project interesting, consider starring the repository.
+| Parameter | Detail |
+| :--- | :--- |
+| **USB Standard** | USB 2.0 High-Speed |
+| **Hub Controller** | SL2.1A |
+| **Upstream Ports** | 1 × USB-C, 1 × USB-A |
+| **Downstream Ports** | 2 × USB-A, 2 × USB-C |
+| **Power Mode** | USB Bus-Powered |
+| **PCB Layers** | 2 Layers |
+| **CAD Software** | EasyEDA Pro |

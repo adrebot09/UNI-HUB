@@ -19,7 +19,7 @@ A compact USB 2.0 hub featuring dual upstream compatibility, four downstream por
 🚀 UNI-HUB V1
 A custom-designed, open-source USB 2.0 Hub built from the ground up.
 
-UNI-HUB V1 was created as a hands-on hardware engineering project to dive deep into proper PCB design practices and prepare a board for professional SMT assembly. Unlike basic beginner builds, this hub was designed from day one with real-world manufacturability in mind—using LCSC components and JLCPCB assembly-compatible footprints.
+UNI-HUB V1 was created as a hands-on hardware engineering project to dive deep into proper PCB design practices and prepare a board for professional SMT assembly. Unlike basic beginner builds, this hub was designed from day one with real-world manufacturability in mind using LCSC components and JLCPCB assembly-compatible footprints.
 
 ✨ Features
 4 Downstream Ports: 2 × USB Type-A
@@ -45,3 +45,8 @@ Manufacture-Ready: Designed specifically for seamless JLCPCB SMT assembly.
 | **Power Mode** | USB Bus-Powered |
 | **PCB Layers** | 2 Layers |
 | **CAD Software** | EasyEDA Pro |
+
+All the files required for producton of the pcb is included 
+Gerber Files can be directly exported to any PCB manufacturing service to be replicated 
+The schematics is also provided
+Pick and Place and BOM files are also included.

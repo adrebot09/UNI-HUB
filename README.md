@@ -16,23 +16,22 @@ A compact USB 2.0 hub featuring dual upstream compatibility, four downstream por
 </p>
 
 ---
-🚀 UNI-HUB V1
-A custom-designed, open-source USB 2.0 Hub built from the ground up.
+UNI-HUB V1  
+A custom-designed, open-source USB 2.0 hub built from the ground up.
 
-UNI-HUB V1 was created as a hands-on hardware engineering project to dive deep into proper PCB design practices and prepare a board for professional SMT assembly. Unlike basic beginner builds, this hub was designed from day one with real-world manufacturability in mind using LCSC components and JLCPCB assembly-compatible footprints.
+UNI-HUB V1 was developed as a hands-on hardware project. It focuses on proper PCB design practices and readies a board for professional SMT assembly. Unlike basic beginner builds, this hub was designed from the start with real-world manufacturing in mind. It uses LCSC components and footprints compatible with JLCPCB assembly.
 
-✨ Features
-4 Downstream Ports: 2 × USB Type-A
-2 × USB Type-C
+Features  
+4 Downstream Ports: 2 × USB Type-A, 2 × USB Type-C
 
-Dual Upstream Options:
-Connect via USB Type-C or USB Type-A (Note: Only connect one upstream port at a time!)
+Dual Upstream Options:  
+Connect via USB Type-C or USB Type-A. Note: Only connect one upstream port at a time.
 
-Power Indicators: Individual status LEDs for every downstream port.
+Power Indicators: Individual status LEDs for each downstream port.
 
-USB-C Compliant: CC pull-down resistors implemented according to official USB Type-C specs.
+USB-C Compliant: CC pull-down resistors are implemented according to official USB Type-C specifications.
 
-Manufacture-Ready: Designed specifically for seamless JLCPCB SMT assembly.
+Manufacture-Ready: Designed specifically for easy JLCPCB SMT assembly.
 
 ## 🛠️ Hardware Specifications
 
@@ -45,6 +44,12 @@ Manufacture-Ready: Designed specifically for seamless JLCPCB SMT assembly.
 | **Power Mode** | USB Bus-Powered |
 | **PCB Layers** | 2 Layers |
 | **CAD Software** | EasyEDA Pro |
+
+<img width="610" height="520" alt="image" src="https://github.com/user-attachments/assets/bfb33992-6402-40dd-88c3-7207a4035028" />
+<img width="1253" height="878" alt="image" src="https://github.com/user-attachments/assets/b892394a-59d6-44ee-b415-6d33e36ce8b5" />
+<img width="693" height="609" alt="image" src="https://github.com/user-attachments/assets/6b098872-9315-491e-b97d-520ce612dfd2" />
+
+
 
 All the files required for producton of the pcb is included 
 Gerber Files can be directly exported to any PCB manufacturing service to be replicated 
